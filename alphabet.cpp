@@ -9,7 +9,6 @@ int main(int argc, char const *argv[])
     char temp;
 
     for (i = 1, temp = firstLetter; i <= abcSize; ++i, ++temp){
-        int number = lastLetter - (lastLetter - i);
         std::cout << "Letter №" << i << " is " << temp << std::endl; 
     }
 
